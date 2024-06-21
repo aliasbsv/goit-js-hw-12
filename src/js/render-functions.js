@@ -30,12 +30,12 @@ export function imagesTemplate(arr) {
     return arr.map(imageTemplate).join('\n');
 }
 
-// показати loader
+
 export function showLoader(loader) {
   loader.classList.remove('hidden');
 }
  
-//// приховати loader
+
 export function hideLoader(loader) {
   loader.classList.add('hidden');
  }
